@@ -210,6 +210,7 @@ namespace CLVShare
 
                 showState($"Image uploaded at { System.DateTime.Now }", 0);
                 sndTweet.Play();
+                textBoxComment.Text = "";
             }
         }
 
